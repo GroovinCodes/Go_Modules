@@ -50,3 +50,5 @@ func randomSentence() string {
 	// return a random sentence via a random index
 	return sentence[rand.Intn(len(sentence))]
 }
+
+// Optional: Add error handling in the case that the length of passed slices are less than 0
