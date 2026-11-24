@@ -35,8 +35,23 @@ if slices.Contains(age, "") {
 		}
 
 // - Part 5
-// We will now add tests into our project to test for bugs and problems 
+// We will now add tests into our project to test for bugs and problems.  
+// Ensure to end the file with "_test.go" to specify that the file is a test file, and the functions doing the testing must be with a capitalized T, not lowercase. 
+func Testingstuff() is good, func testingStuff() is not for testing functions
 
+
+// Create a new file in the age folder, as we'll be testing the details function 
+Note:
+// Since we're using slices of strings, we'll need to import the "strings" package to perform regexp operations 
+// Additionally, we need to make our slices of strings into a single string to use our regexp operations. This can be done with strings.Join and the "|" operator, as 
+// this will choose any one of the names or ages within the slice
+// Then, we pass the slices into the Details function to confirm if the returned result will be what is desired.
+// We get the returned result and based on what Details returned, we either pass as the result is what was desired, or we activate one of the error if's and print the fail to the terminal
+// After that, we implement a function meant to test the error handling of Details if we were to pass an empty string within our slice. Once confirmed,
+// we pass if the program catches the error and fails if it did not.
+
+// - Part 6
+// Go to greeting and create an executable of greeting
 
 
 Aftermath Project Details:

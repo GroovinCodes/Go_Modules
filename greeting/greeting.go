@@ -11,7 +11,7 @@ func main() {
 	log.SetFlags(0)
 
 	names := []string{"Gabe", "Sarah", "Michael"}
-	ages := []string{"20", "24", ""}
+	ages := []string{"20", "24", "81"}
 
 	for i := 0; i < len(names); i++ { // Used to output a custom sentence
 		message, err := age.Details(ages, names) // relates to what values will receive from age, not what will be passed to it. What passes is only our parameters
