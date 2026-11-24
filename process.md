@@ -50,9 +50,8 @@ Note:
 // After that, we implement a function meant to test the error handling of Details if we were to pass an empty string within our slice. Once confirmed,
 // we pass if the program catches the error and fails if it did not.
 
-// - Part 6
-// Go to greeting and create an executable of greeting
-
+// - 11/24/2026
+Project completed!
 
 Aftermath Project Details:
 // Have the program choose random names and ages from a slice to each statement unique (Done - 11/20/2026)
